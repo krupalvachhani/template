@@ -72,7 +72,7 @@ a{
 #testimonials{
     color: #fff;
     background: url(image/banner-4.jpg) no-repeat 0 0;
-    background-size: cover;
+    background-size: contain;
     padding: 50px 0;
     position: relative;
 }
@@ -193,8 +193,8 @@ a.readmore:after{
     .service-box{
         margin-bottom: 30px;
     }
-    .footer-widget{
-        margin-bottom: 20px;
+    #footer-sidebar{
+        display: none;
     }
     #footer{
         text-align: center;
